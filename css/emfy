@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body { text-align: center;}
+
+html {
+	background: url(img/background.jpg) no-repeat center center;
+	min-height: 100%;
+	background-size: covers;
+}
+
+
+h1 { font-family: Akzidenz-Grotesk Pro Bold Ext; 
+	font-size: 57.33px;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 53.13%, rgba(255, 255, 255, 0.48) 100%); 
+	display: inline-block;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 8px; margin-bottom: 8px;
+}
+small {
+ color: white; font-size: 11.11px; letter-spacing: 0.15em; font-family: Akzidenz-Grotesk Pro Bold Med;
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.24) 53.13%, rgba(255, 255, 255, 0.16) 100%); 	
+-webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+
+}
+p { color: white; font-size: 16px; font-family: Akzidenz-Grotesk Pro Bold Med;
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.48) 53.13%, rgba(255, 255, 255, 0.32) 100%);
+display: inline-block;
+-webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ margin: 0px; margin-bottom: 64px;
+}
+
+.knopka { color: white; font-size: 16px; font-family: Akzidenz-Grotesk Pro Bold Med;
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 53.13%, rgba(255, 255, 255, 0.48) 100%);
+-webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+padding: 16px 32px;
+}
+
+.button:hover { transform: scale(1.08); transition: 0.16s }
+
+.button { background: red; display: inline-block;  padding: 16px 0px; background: rgba(255, 255, 255, 0.08); border-radius: 8px; border: 1px border: 1px solid rgba(255, 255, 255, 0.08); transition: 0.72s;
+ }
+
+img { pointer-events: none; }
+
+.center1 { margin: 50% 0%; }
+
+.icons { position: fixed; bottom: 0px; width: 59%; margin-bottom: 24px}
+.icons a { margin:0px 16px; }
+.icons a img { opacity: 0.48; transition: 0.72s;}
+.icons a:hover img { opacity: 0.90; transition: 0.16s;}
