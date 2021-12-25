@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body { text-align: center;}
+
+html {
+	background: url(img/background.png) no-repeat center center;
+	min-height: 100%;
+	background-size: covers;
+
+} 
+
+h1 { font-family: Akzidenz-Grotesk Pro Bold Ext; 
+	font-size: 57.33px;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.48) 100%);
+	display: inline-block;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 8px; margin-bottom: 16px;
+}
+small { font-size: 16px; letter-spacing: 0.15em; font-family: Akzidenz-Grotesk Pro Bold Med;
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.24) 50%, rgba(255, 255, 255, 0.08) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+p { font-size: 16px; font-family:Akzidenz-Grotesk Pro Bold Med; 
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.48) 50%, rgba(255, 255, 255, 0.32) 100%); 
+display: inline-block;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 0px; margin-bottom: 32px;
+}
+
+.knopka { color: white; color-size: 16px; font-family: Akzidenz-Grotesk Pro Bold Med; 
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.48) 100%); 
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent
+}
+
+.button:hover { transform: scale(1.08); transition: 0.32s}
+
+.button { background: red; display: inline-block; padding: 16px 16px; background: rgba(255, 255, 255, 0.08); border-radius: 8px; 
+border: 1px solid rgba(255, 255, 255, 0.08); transition: 0.72s;
+}
+
+img { pointer-events: none; }
+
+.center1 { margin: 50% 0%; }
